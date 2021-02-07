@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/angelvasa/MobServices"
   spec.author             = { "Angel Vasa" => "avasa@mobiquityinc.com" }
 
-  spec.source           = { :git => 'https://github.com/angelvasa/OnboardingModule.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/angelvasa/MobServices.git', :tag => spec.version.to_s }
   spec.platform = :ios, '12.0'
   spec.swift_version = '4.1'
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
