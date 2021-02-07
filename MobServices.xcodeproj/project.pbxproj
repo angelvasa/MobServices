@@ -10,6 +10,15 @@
 		AB8BB00725CFBFCB00BF8580 /* MobServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */; };
 		AB8BB00C25CFBFCB00BF8580 /* MobServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB00B25CFBFCB00BF8580 /* MobServicesTests.swift */; };
 		AB8BB00E25CFBFCB00BF8580 /* MobServices.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8BB00025CFBFCB00BF8580 /* MobServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8BB02025CFBFE200BF8580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB01F25CFBFE200BF8580 /* AppDelegate.swift */; };
+		AB8BB02225CFBFE200BF8580 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB02125CFBFE200BF8580 /* SceneDelegate.swift */; };
+		AB8BB02425CFBFE200BF8580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB02325CFBFE200BF8580 /* ViewController.swift */; };
+		AB8BB02725CFBFE200BF8580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB02525CFBFE200BF8580 /* Main.storyboard */; };
+		AB8BB02925CFBFE400BF8580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB02825CFBFE400BF8580 /* Assets.xcassets */; };
+		AB8BB02C25CFBFE400BF8580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8BB02A25CFBFE400BF8580 /* LaunchScreen.storyboard */; };
+		AB8BB03525CFC00300BF8580 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB03425CFC00300BF8580 /* LoginService.swift */; };
+		AB8BB03D25CFD19600BF8580 /* MobServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */; };
+		AB8BB03E25CFD19600BF8580 /* MobServices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +29,28 @@
 			remoteGlobalIDString = AB8BAFFC25CFBFCB00BF8580;
 			remoteInfo = MobServices;
 		};
+		AB8BB03F25CFD19700BF8580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8BAFF425CFBFCB00BF8580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8BAFFC25CFBFCB00BF8580;
+			remoteInfo = MobServices;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB8BB04125CFD19700BF8580 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB8BB03E25CFD19600BF8580 /* MobServices.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +59,15 @@
 		AB8BB00625CFBFCB00BF8580 /* MobServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8BB00B25CFBFCB00BF8580 /* MobServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobServicesTests.swift; sourceTree = "<group>"; };
 		AB8BB00D25CFBFCB00BF8580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8BB01D25CFBFE200BF8580 /* MobServices-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobServices-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8BB01F25CFBFE200BF8580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8BB02125CFBFE200BF8580 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB8BB02325CFBFE200BF8580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8BB02625CFBFE200BF8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8BB02825CFBFE400BF8580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8BB02B25CFBFE400BF8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8BB02D25CFBFE400BF8580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8BB03425CFC00300BF8580 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8BB01A25CFBFE200BF8580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8BB03D25CFD19600BF8580 /* MobServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +102,9 @@
 			children = (
 				AB8BAFFF25CFBFCB00BF8580 /* MobServices */,
 				AB8BB00A25CFBFCB00BF8580 /* MobServicesTests */,
+				AB8BB01E25CFBFE200BF8580 /* MobServices-Demo */,
 				AB8BAFFE25CFBFCB00BF8580 /* Products */,
+				AB8BB03C25CFD19600BF8580 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +113,7 @@
 			children = (
 				AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */,
 				AB8BB00625CFBFCB00BF8580 /* MobServicesTests.xctest */,
+				AB8BB01D25CFBFE200BF8580 /* MobServices-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +123,7 @@
 			children = (
 				AB8BB00025CFBFCB00BF8580 /* MobServices.h */,
 				AB8BB00125CFBFCB00BF8580 /* Info.plist */,
+				AB8BB03425CFC00300BF8580 /* LoginService.swift */,
 			);
 			path = MobServices;
 			sourceTree = "<group>";
@@ -84,6 +135,27 @@
 				AB8BB00D25CFBFCB00BF8580 /* Info.plist */,
 			);
 			path = MobServicesTests;
+			sourceTree = "<group>";
+		};
+		AB8BB01E25CFBFE200BF8580 /* MobServices-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AB8BB01F25CFBFE200BF8580 /* AppDelegate.swift */,
+				AB8BB02125CFBFE200BF8580 /* SceneDelegate.swift */,
+				AB8BB02325CFBFE200BF8580 /* ViewController.swift */,
+				AB8BB02525CFBFE200BF8580 /* Main.storyboard */,
+				AB8BB02825CFBFE400BF8580 /* Assets.xcassets */,
+				AB8BB02A25CFBFE400BF8580 /* LaunchScreen.storyboard */,
+				AB8BB02D25CFBFE400BF8580 /* Info.plist */,
+			);
+			path = "MobServices-Demo";
+			sourceTree = "<group>";
+		};
+		AB8BB03C25CFD19600BF8580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +208,25 @@
 			productReference = AB8BB00625CFBFCB00BF8580 /* MobServicesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AB8BB01C25CFBFE200BF8580 /* MobServices-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8BB02E25CFBFE400BF8580 /* Build configuration list for PBXNativeTarget "MobServices-Demo" */;
+			buildPhases = (
+				AB8BB01925CFBFE200BF8580 /* Sources */,
+				AB8BB01A25CFBFE200BF8580 /* Frameworks */,
+				AB8BB01B25CFBFE200BF8580 /* Resources */,
+				AB8BB04125CFD19700BF8580 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8BB04025CFD19700BF8580 /* PBXTargetDependency */,
+			);
+			name = "MobServices-Demo";
+			productName = "MobServices-Demo";
+			productReference = AB8BB01D25CFBFE200BF8580 /* MobServices-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +238,12 @@
 				TargetAttributes = {
 					AB8BAFFC25CFBFCB00BF8580 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					AB8BB00525CFBFCB00BF8580 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					AB8BB01C25CFBFE200BF8580 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -168,6 +263,7 @@
 			targets = (
 				AB8BAFFC25CFBFCB00BF8580 /* MobServices */,
 				AB8BB00525CFBFCB00BF8580 /* MobServicesTests */,
+				AB8BB01C25CFBFE200BF8580 /* MobServices-Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +283,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8BB01B25CFBFE200BF8580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8BB02C25CFBFE400BF8580 /* LaunchScreen.storyboard in Resources */,
+				AB8BB02925CFBFE400BF8580 /* Assets.xcassets in Resources */,
+				AB8BB02725CFBFE200BF8580 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8BB03525CFC00300BF8580 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +312,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8BB01925CFBFE200BF8580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8BB02425CFBFE200BF8580 /* ViewController.swift in Sources */,
+				AB8BB02025CFBFE200BF8580 /* AppDelegate.swift in Sources */,
+				AB8BB02225CFBFE200BF8580 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +330,31 @@
 			target = AB8BAFFC25CFBFCB00BF8580 /* MobServices */;
 			targetProxy = AB8BB00825CFBFCB00BF8580 /* PBXContainerItemProxy */;
 		};
+		AB8BB04025CFD19700BF8580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8BAFFC25CFBFCB00BF8580 /* MobServices */;
+			targetProxy = AB8BB03F25CFD19700BF8580 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB8BB02525CFBFE200BF8580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8BB02625CFBFE200BF8580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8BB02A25CFBFE400BF8580 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8BB02B25CFBFE400BF8580 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB8BB00F25CFBFCB00BF8580 /* Debug */ = {
@@ -341,6 +482,7 @@
 		AB8BB01225CFBFCB00BF8580 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SFWNSYN8YK;
@@ -357,6 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobServices;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +508,7 @@
 		AB8BB01325CFBFCB00BF8580 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SFWNSYN8YK;
@@ -389,6 +533,7 @@
 		AB8BB01525CFBFCB00BF8580 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SFWNSYN8YK;
 				INFOPLIST_FILE = MobServicesTests/Info.plist;
@@ -407,6 +552,7 @@
 		AB8BB01625CFBFCB00BF8580 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SFWNSYN8YK;
 				INFOPLIST_FILE = MobServicesTests/Info.plist;
@@ -416,6 +562,44 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobServicesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB8BB02F25CFBFE400BF8580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFWNSYN8YK;
+				INFOPLIST_FILE = "MobServices-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mob.MobServices-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8BB03025CFBFE400BF8580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SFWNSYN8YK;
+				INFOPLIST_FILE = "MobServices-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mob.MobServices-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +632,15 @@
 			buildConfigurations = (
 				AB8BB01525CFBFCB00BF8580 /* Debug */,
 				AB8BB01625CFBFCB00BF8580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8BB02E25CFBFE400BF8580 /* Build configuration list for PBXNativeTarget "MobServices-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8BB02F25CFBFE400BF8580 /* Debug */,
+				AB8BB03025CFBFE400BF8580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
