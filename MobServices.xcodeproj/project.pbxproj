@@ -19,6 +19,7 @@
 		AB8BB03525CFC00300BF8580 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB03425CFC00300BF8580 /* LoginService.swift */; };
 		AB8BB03D25CFD19600BF8580 /* MobServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */; };
 		AB8BB03E25CFD19600BF8580 /* MobServices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB8BAFFD25CFBFCB00BF8580 /* MobServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB8BB04825CFD7CA00BF8580 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8BB04725CFD7CA00BF8580 /* AccountService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		AB8BB02B25CFBFE400BF8580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8BB02D25CFBFE400BF8580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8BB03425CFC00300BF8580 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		AB8BB04725CFD7CA00BF8580 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				AB8BB00025CFBFCB00BF8580 /* MobServices.h */,
 				AB8BB00125CFBFCB00BF8580 /* Info.plist */,
 				AB8BB03425CFC00300BF8580 /* LoginService.swift */,
+				AB8BB04725CFD7CA00BF8580 /* AccountService.swift */,
 			);
 			path = MobServices;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8BB03525CFC00300BF8580 /* LoginService.swift in Sources */,
+				AB8BB04825CFD7CA00BF8580 /* AccountService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
